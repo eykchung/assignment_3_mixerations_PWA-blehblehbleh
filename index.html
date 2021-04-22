@@ -1,71 +1,116 @@
-
 <!DOCTYPE html>
 <html lang="en" class="index">
-    <head>
-    
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/main.css" />
-        
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
     <title>Home</title>
-    </head>
-    <body>
-        
-        <!-- your header here -->
-        
-        
-<nav>
-    <div class="navbar navbar-inverse navbar-static-top">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href=".">Portfolio of Richard Hildred</a>
+    <link rel="icon" type="image/png" href="favicon.png"/>
+</head>
+
+<body>
+
+    <!-- your header here -->
+
+
+    <nav>
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href=".">Mixerations Events</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+    </nav>
+
+    <main>
+        <style>
+            h1 {
+                text-align: center;
+            }
+
+            h2 {
+                text-align: center;
+            }
+
+            #MenuMenu {
+                margin-top: "25";
+                align-items: center;
+            }
+
+            p {
+                text-align: center;
+            }
+            div{
+                text-align: center;
+            }
+        </style>
+        <div id="MenuMenu">
+            <object type="text/html" data="EhtchTeeEmElpaper-layout-of-menu.html" width="800" height="500"></object>
         </div>
-    </div>
-</nav>
-        
-        <main>
-    <h1>Upcoming Popup Meals</h1>
-            <h2>Corned Beef and Potatoes</h2>
-            <p><img src="https://live.staticflickr.com/3143/5837694448_797eb73909_c_d.jpg" alt="Corned Beef and Potatoes"</p>
-            <p>Cooked the Irish way.</p>
-            <form action="https://serene-taiga-04277.herokuapp.com/payment" method="post">
-            <input type="hidden" name="title" value="Corned Beef and Potatoes" />
-            <input type="hidden" name="price" value="21" />
-            <input type="tel" placeholder="enter your number" name="telephone"/>
-            <button type="submit">Order now</button>
-            </form>
-            
-            <h2>Roast Chicken</h2>
-            <p><img src="https://live.staticflickr.com/2019/2207274185_412a98d744_c_d.jpg" alt="Roast Chicken"</p>
-            <p>I really love Roast Chicken</p>
-            <form action="https://serene-taiga-04277.herokuapp.com/payment" method="post">
-            <input type="hidden" name="title" value="Roast Chicken" />
-            <input type="hidden" name="price" value="21" />
-            <input type="tel" placeholder="enter your number" name="telephone"/>
-            <button type="submit">Order now</button>
-            </form>
-            
-            <h2>Steak</h2>
-            <p><img src="http://hostthetoast.com/wp-content/uploads/2019/02/Garlic-Butter-Ribeye-Steak-and-Potatoes-6.jpg" alt="Steak"</p>
-            <p>Also with fries and salad!</p>
-            <form action="https://serene-taiga-04277.herokuapp.com/payment" method="post">
+        <h1><br>Upcoming Events</h1>
+        <h2>Polar Bear Plunge Challenge</h2>
+        <p><img src="https://cdn.pixabay.com/photo/2021/01/18/13/02/waffle-cones-5928081_960_720.jpg"
+                alt="Polar Bear Plunge Challenge" </p>
+        <p id="paraOne">Calling all Canada dwellers, winter was made for ice cream! Come on down and show you’re part of the True
+            North by taking part in our Polar Bear Plunge Challenge. Can you <br> handle our Ultra Mint Mix? Or are you the
+            type to be able to brave the fires that come with Fire Breathing Maple Caramel? Brave our two new mixes and
+            you stand a chance to <br> being entered to win 10 free scoops to be used whenever you want, on the house. If,
+            you’re planning on coming down, don’t forget your toque!</p>
+        <form action="https://serene-taiga-04277.herokuapp.com/payment" method="post">
+            <input type="hidden" name="title" value="Polar Bear Plunge Challenge" />
+            <input type="hidden" name="price" value="7" />
+            <div class="Submit_order">
+                <input type="tel" placeholder="enter your number" name="telephone" />
+                <button type="submit">Order now</button>
+            </div>
+        </form>
+
+        <h2><br>Chinese New Year Special</h2>
+        <p><img src="https://cdn.pixabay.com/photo/2017/08/03/14/38/ice-cream-2576622_960_720.jpg"
+                alt="Chinese New Year Special" </p>
+        <p id="paraTwo">Gung hei fat choy! This one goes out to our Chinese Canadian community! And in the spirit of celebrating the
+            year of the ox, we’re spreading the joy with ice cream! People 21 years <br> and younger get a tub of any flavour
+            in-house for half price. And if you’re 21 and younger and get 2 tubs of ice cream, it’ll be a quarter of the
+            price for one. <br> Just a little something since we can’t exactly give out red pockets ;)</p>
+        <form action="https://serene-taiga-04277.herokuapp.com/payment" method="post">
+            <input type="hidden" name="title" value="Chinese New Year Special" />
+            <input type="hidden" name="price" value="9" />
+            <div class="Submit_order">
+                <input type="tel" placeholder="enter your number" name="telephone" />
+                <button type="submit">Order now</button>
+            </div>
+        </form>
+
+        <h2><br>Easter Egg Special</h2>
+        <p><img src="https://cdn.pixabay.com/photo/2017/04/01/16/59/ice-2194054_960_720.jpg" alt="Easter Egg Special"
+                </p>
+        <p id="paraTree">Happy Easter babbits and chicklets! This time ‘round we’re holding an Easter egg hunt for the young’uns who
+            love Mixerations. If you’re 21 and younger and can find 30 eggs in 3 hours, <br> be sure to expect 3 quart half
+            off with your name on it- on the house. Happy Easter everyone!</p>
+        <form action="https://serene-taiga-04277.herokuapp.com/payment" method="post">
             <input type="hidden" name="title" value="Steak" />
-            <input type="hidden" name="price" value="21" />
-            <input type="tel" placeholder="enter your number" name="telephone"/>
-            <button type="submit">Order now</button>
-            </form>
-            
-            <h2>Roast Chicken</h2>
+            <input type="hidden" name="price" value="8.50" />
+            <div class="Submit_order">
+                <input type="tel" placeholder="enter your number" name="telephone" />
+                <button type="submit">Order now</button>
+            </div>
+        </form>
+
+        <!-- <h2>Roast Chicken</h2>
             <p><img src="https://live.staticflickr.com/2019/2207274185_412a98d744_b_d.jpg" alt="Roast Chicken"</p>
             <p>I really love Roast Chicken</p>
             <form action="https://serene-taiga-04277.herokuapp.com/payment" method="post">
@@ -83,17 +128,18 @@
             <input type="hidden" name="price" value="21" />
             <input type="tel" placeholder="enter your number" name="telephone"/>
             <button type="submit">Order now</button>
-            </form>
-            
+            </form> -->
+
     </main>
-    
-<footer>
-    &copy; <script>document.write(new Date().getFullYear())</script> Richard Hildred
-</footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-        
-    </body>
+
+    <footer>
+        &copy;
+        <script>document.write(new Date().getFullYear())</script> Elyssa Chung
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
-        

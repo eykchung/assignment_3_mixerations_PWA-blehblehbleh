@@ -3,12 +3,12 @@ const Page = require("./_layout/Default");
 
 module.exports = class extends Page {
     constructor(){
-        super({title:"Home", sName:"Richard Hildred"});
+        super({title:"Home", sName:"Elyssa Chung"});
     }
     render(sPage) {
-        const oJson = fetch("https://prog8110winter2021section2-default-rtdb.firebaseio.com/meals.json").json();
+        const oJson = fetch("https://todoapril1-default-rtdb.firebaseio.com/meals.json").json();
         console.log(oJson);
-        let sResult = "<h1>Upcoming Popup Meals</h1>";
+        let sResult = "<h1>Mixerations</h1>";
         Object.keys(oJson).map((key) => {
             const oEntity = oJson[key];
             console.log(oEntity);
